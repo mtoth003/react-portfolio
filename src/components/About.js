@@ -11,7 +11,8 @@ export default function About() {
           </h1>
           <p className='mb-8 leading-relaxed'>
            Hey there! I'm an aspiring software developer from Richmond, VA with experience buiding full stack applications.
-           Most of my apps consist of a React frontend with a Ruby on Rails backend, but I love learning new languages to expect consistent updates!
+           Most of my apps consist of a React frontend with a Ruby on Rails backend, 
+           but I love learning new languages to expect consistent updates!
            You can check out some of my work down below, feel free to drop me a message if you'd like to work together!
           </p>
           <div>
@@ -32,6 +33,8 @@ export default function About() {
             className='object-cover object-center rounded'
             alt="hero"
             src="./coding.svg"
+            // src="./me.png"
+            // style={{height: "20%"}}
           />
         </div>
       </div>
